@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Document Title</title>
+
+</head>
+
+<body>
+<h1>Donation Form</h1>
+
+<form>
+
+<fieldset>
+    <legend>Donor Details</legend>
+    <label>Your Name</label><br>
+    <input type="text"  placeholder="Enter your full name"><br><br>
+
+    <label>Donor ID</label><br>
+    <input type="password"  placeholder="Your Secret ID"><br><br>
+
+    <label>Donation Date</label><br>
+    <input type="date"><br>
+</fieldset>
+
+<hr>
+<fieldset>
+    <label>Book Details</label>
+
+    <label>Choose Your Doctor</label><br>
+    <select>
+        <option value="">  Book Details </option>
+        <option value="science"> Science</option>
+        <option value="fiction"> Fiction</option>
+        <option value="history"> History </option>
+    </select><br><br>
+
+    <label>Book Condition</label><br>
+    <input type="radio" name="condition" value="used"> Used<br>
+    <input type="radio" name="condition" value="new"> New<br>
+    <input type="radio" name="condition" value="good"> Good<br>
+    <input type="radio" name="condition" value="brand new"> Brand New<br><br>
+
+    <label>Title or Notes</label><br>
+    <textarea rows="3" cols="35" placeholder="e.g. for the book title or any notes".></textarea><br>
+</fieldset>
+
+<br>
+<fieldset>
+    <legend>Drop off days</legend>
+
+    <input type="checkbox" value="mon"> Monday<br>
+    <input type="checkbox" value="thurs"> Thursday<br>
+    <input type="checkbox" value="fri"> Friday<br>
+
+
+</fieldset>
+
+<br>
+<input type="submit" value="Donate My Book">
+
+
+</form>
+
+</body>
+
+</html>
